@@ -1,8 +1,8 @@
 # Learning3DPrinterSystemDesign
 
-## Metal 3D Printer
+# Metal 3D Printer
 
-### FLOW
+## FLOW
 **General Flow**
 
 1. Fill the metal powder tank to be used for 3d printing
@@ -29,7 +29,7 @@
 4. Devices like PC, PLC, SPLC, Gas Pump and Powder Pump inverted should be connected via ethernet
 5. There should be a cooling system for laser hardware module
 
-### Software Requirements
+## Software Requirements
 
 1. **SQL database** for logging the events - static : for one time changing parameters and dynamic : for continous changing parameters
 2. **JSON** file for configuration
@@ -46,9 +46,15 @@
 13. MVC Architecture
 14. Report generation in PDF form to give overall build details
 15. There should be a log generation system for dianostics
+16. Plugins for making tools for testing teams
 
 **Code Quality Maintainance**
 1. Unit tests for functional testing
 2. Integration tests for loop testing
 3. CD/CI pipeline like Azure pipeline for dev-ops
 4. Machine Simulator for low cost testing 
+
+
+# Microservices
+
+## Chamber Inerting
